@@ -1,0 +1,15 @@
+.env
+.env.*
+.treg/
+*.csv
+*.xlsx
+.DS_Store
+.claude/settings.local.json
+tools/whisper-transcriber-suite/
+!.env.example
+clay-session.json
+.venv/
+venv/
+__pycache__/
+*.pyc
+node_modules/

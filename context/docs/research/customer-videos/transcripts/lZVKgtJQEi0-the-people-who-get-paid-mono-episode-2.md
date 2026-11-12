@@ -1,0 +1,30 @@
+# The People who Get Paid: Mono (Episode 2)
+
+- **Video:** https://www.youtube.com/watch?v=lZVKgtJQEi0
+- **Channel:** PaidHR (@GetPaidHR)
+- **Length:** 5:25 | **Published:** about 6 months ago (as of 2026-11-11, YouTube relative date)
+- **Found via:** YouTube channel
+- **Transcript source:** YouTube auto-generated captions (language: English), pulled via treg (scrapecreators) on 2026-11-11.
+- **Accuracy warning:** auto-captions. Names, brand words and numbers are often wrong (e.g. "paid" = PaidHR, "Pade" = PaidHR's former name). This file is unedited; verify against the video before quoting.
+
+## Raw transcript (timestamped, ~30s blocks)
+
+**[0:00]** So, businesses rely on accurate customer data and secure processes to make core business decisions, and they need an effective way to accept payments within their products. We want Mono to make that happen for them in the most convenient way possible through open banking. Hi, my name is Freda Okusu and I'm the head of people at Mono. >> Hi, I'm Praise Onyonoro and I'm a senior people associate at Mono. So, Mono is an API infrastructure company. We build open banking product APIs and no-code
+
+**[0:34]** tools that enable African businesses to securely access customers' financial data, verify the identity of users, businesses, and collect direct bank payments. So, businesses rely on accurate customer data and secure processes to make core business decisions, and they need an effective way to accept payments within their products. We want Mono to make that happen for them in the most convenient way possible through open banking. >> Over the last 5 years, we've expanded our product suite from data to payments and identity verification. We were also recently acquired by Flutterwave. I
+
+**[1:07]** remember my phone blowing up and people texting me, "Oh, you guys have money now." Things like that. Um, and this gives us even greater skill to move faster on our mission and empower more African businesses to build personalized financial experiences for their users. One of the biggest lessons for us is that people operations cannot be reactive. It has to be proactive. We have to put structures and um, frameworks in place to ensure that we have a very efficient way of doing work, especially through our compliance and statutory obligations. We want to make
+
+**[1:40]** sure that we have um, what do you call it? Some factors that have been set up that allows us to be very intentional from the very beginning and set the foundation um, about the culture that we're trying to build. Yeah, we've also learned that culture doesn't make itself. You have to be intentional about building it, and that's something we try to do. Like um we're proud to say that we have a great culture at Monno and this is because we've put in the um effort to build that, you know, work with our employees, make sure that they look forward to coming to work every day. Every Monday I wake up and I'm
+
+**[2:14]** like, "Okay, I'm happy to go to work." Because I love what I do and I love where I work. So, that's something we've learned to Um it's a lot more complex than people think. Um beyond just paying people salaries and creating a good culture, you have to put processes in place that allow them to really work in a way that allows them to be productive and show up as a 100% every day. From ensuring that your compliance and governance is sorted out, from ensuring that you don't have any issues with, you know, your statutory obligations, to ensuring that you have structures and frameworks in place that
+
+**[2:47]** allow them to really not only produce um a high outcome, but also be recognized and be rewarded for that productive outcome that they have, I believe. Yeah, and then we also have to consider the bottom line of the business, revenue. You know, people talk about hiring, HR is just for hiring, firing and stuff like that. But, you have to consider that we have to help the business make money because then when the business makes money, we can increase salaries, yeah. And HR is your friend at the end of the day. So, those are the things that we do, you know, work with finance. You know, sometimes we have to fight to
+
+**[3:20]** finance to do these things. But, yes, um these are things we do to run the business. Pay HR has taken over some of the most critical processes that we have and has done it effectively. One of the um pain points that drew me to Pay HR as not just a platform, but as an organization was how much they pay attention to compliance and statutory obligations, which was a huge um bone of content for us. Just the fact that they can effectively do this takes a chunk of our stress away. Knowing that our employees are paid um on time, they are paid
+
+**[3:54]** accurately, and they are also doing what they are supposed to do in terms of obligations just as citizens of the country now has made it so great for me. Even all the other tools from their HR tool to the payroll tool to Now they're doing performance Performance management which we are excited to come on board for. For me, you know, working with Payday Tsar too, I like to play with the platform a lot cuz it's very very interesting to, you know, work with. And I would, you know, use this opportunity to say that my account manager has been great
+
+**[4:26]** because whenever I come across any issue, that's something I would commend them. They they're there to help you. It's not the regular vendor account manager relationship. Like I call my account manager and I'm saying this is the issue I'm facing and she just, you know, let's get on the call, let's fix this. And she's doing it. Even sometimes I've even forgotten about it. She's calling to say, "Oh, I fixed it. I've sorted it out." Yeah. So that's something I really like. I know that we this is just work, but sometimes she deceives me to think she's my friend because yeah, cuz of the way she helps me, makes my work easy. So yeah, I would say Payday Tsar, they've
+
+**[5:01]** really come through for us.
