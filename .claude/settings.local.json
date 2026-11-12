@@ -1,0 +1,7 @@
+{
+  "env": {
+    "TREG_CONFIG": "/Users/adeyemiboboye/Documents/paidhr-gtm-os/.treg/config.json",
+    "TREG_TELEMETRY": "0",
+    "DO_NOT_TRACK": "1"
+  }
+}

@@ -1,13 +1,12 @@
+# Secrets: never commit (repo is public)
 .env
 .env.*
-.treg/
-*.csv
-*.xlsx
-.DS_Store
-.claude/settings.local.json
-tools/whisper-transcriber-suite/
 !.env.example
+.treg/config.json
 clay-session.json
+
+# OS and build junk
+.DS_Store
 .venv/
 venv/
 __pycache__/
