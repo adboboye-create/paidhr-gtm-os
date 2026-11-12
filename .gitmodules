@@ -1,3 +1,4 @@
 [submodule "tools/whisper-transcriber-suite"]
 	path = tools/whisper-transcriber-suite
 	url = https://github.com/Milomilo777/whisper-transcriber-suite.git
+	ignore = untracked
