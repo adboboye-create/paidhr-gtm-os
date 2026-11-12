@@ -42,6 +42,8 @@ All are featured publicly by PaidHR. Before naming any: confirm still a customer
 - **Money handling**: Does not hold customer deposits; partners with licensed financial institutions. Date / scope: Oct 2024. Source: co:S8.
 - **Onboarding**: No upfront onboarding fee; sign up, onboard and run payroll same day. Date / scope: Sept 2024. Source: co:S7.
 - **What the platform does (payroll)**: Calculates and remits PAYE, pension, NHF and NSITF each cycle with receipts; payroll approval workflows; staff self-onboard and get payslips themselves. Date / scope: 2026. Source: co:S1; sp:V3, V5, V10.
+- **What the platform does (time and attendance)**: Geo-referenced clock-ins, shifts and overtime flow into payroll. Date / scope: 2026 (homepage module list). Source: co:S1.
+- **What the platform does (disbursement)**: HR can self-generate a payment receipt for any salary payment; failed payments trigger an alert and can be re-sent. Date / scope: customer description, ~Dec 2025. Source: sp:V5.
 - **Nigeria Tax Act (context, not a PaidHR claim)**: In force 1 January 2026, so 2026 is the first year under it; annual PAYE returns due 31 January. Never claim PaidHR files the annual return (unknown). Date / scope: 2026. Source: ss:E1.
 - **Seed funding**: $1.8M led by Accion Venture Lab. Date / scope: Jun 2025. Source: co:S4, S5.
 - **Salary data**: PaidRight: median monthly gross ₦217,000 across 25,000+ workers, 400+ employers. Date / scope: Jul 2026 snapshot. Source: co:S3, S9.
