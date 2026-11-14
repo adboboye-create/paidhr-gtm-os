@@ -40,7 +40,9 @@ The spec says: find People or HR leaders at Nigerian companies with 50 to 500 st
 
 You will build **4 tables** inside **1 workbook**:
 
-**Diagram:** open [new-hr-leader-first-100-days-clay-flow.html](new-hr-leader-first-100-days-clay-flow.html) in a browser. (The PNG version needs Google Chrome to render; see [Things the spec needs to fix](#things-the-spec-needs-to-fix) note at the end.)
+![How W3 moves through Clay](new-hr-leader-first-100-days-clay-flow.svg)
+
+(Can't see the picture? Open the guide in preview mode: Cmd+Shift+V in VS Code. The same diagram is also in [new-hr-leader-first-100-days-clay-flow.html](new-hr-leader-first-100-days-clay-flow.html) for a browser.)
 
 Each row of the picture is a table. The numbers are the order you build in. Step 0 is the list you upload first.
 
@@ -737,4 +739,4 @@ Found while writing this guide. Update [workflow-spec.md](workflow-spec.md) (thi
 6. **Section 2, Unverified email:** says Apollo `email_status`. In Clay, it's the waterfall's validation status, plus the email-domain check in Part 9.
 7. **Section 6, Variables:** `e1l3` and `e2l2` carry their own blank line (`\n\n`), which is in the sequencer export but not in the spec. Add it to the variables contract.
 8. **Not in the spec, added here as optional:** `Still Employed?` (7.4) and the email-domain check (Part 9). Add them to section 2 if PaidHR wants them as rules.
-9. **Diagram PNG:** this Mac has no Google Chrome, so the skill's renderer couldn't make the PNG. Install Chrome and run `pip install selenium`, then `python3 .claude/skills/clay-build-plan/scripts/render_flow.py output/campaigns/new-hr-leader-first-100-days/new-hr-leader-first-100-days-clay-flow.json output/campaigns/new-hr-leader-first-100-days/new-hr-leader-first-100-days-clay-flow.png`, and swap the diagram link at the top for the image. (Not a spec problem: a setup note.)
+9. **Diagram format:** this Mac has no Google Chrome, so the skill's PNG renderer couldn't run. The diagram at the top is an SVG drawn from the same JSON instead. For the skill's own PNG, install Chrome, run `pip install selenium`, then `python3 .claude/skills/clay-build-plan/scripts/render_flow.py output/campaigns/new-hr-leader-first-100-days/new-hr-leader-first-100-days-clay-flow.json output/campaigns/new-hr-leader-first-100-days/new-hr-leader-first-100-days-clay-flow.png`. (Not a spec problem: a setup note.)
