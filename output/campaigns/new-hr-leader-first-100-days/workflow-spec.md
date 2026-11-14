@@ -1,9 +1,9 @@
 # W3: New HR leader, first 100 days
 
-**Status:** STRUCTURE-APPROVED 2026-11-12 (decisions delegated: user asked Claude to choose the best fit) · amended 2026-11-12: window 90 to 100 days, geography Nigeria to Nigeria, Kenya and Ghana · Kenya and Ghana sending GATED (open item 5) · copy pending
+**Status:** STRUCTURE-APPROVED 2026-11-12 (decisions delegated: user asked Claude to choose the best fit) · amended 2026-11-12: window 90 to 100 days, geography Nigeria to Nigeria, Kenya and Ghana · Kenya and Ghana sending GATED (open item 5) · COPY-APPROVED 2026-11-12 (Nigeria, country = NG) · not launch-ready: see Before launch under ## Copy
 
 The structure of the outbound workflow that reaches a People or HR leader in their first 100 days at a company with 50 to 500 staff in Nigeria, Kenya or Ghana. Read before writing copy for it (`/campaign-copy` reads this file) or building its table in Clay.
-Built with `/build-workflow-spec` from signal S03 and tracker row W3 in [signal-matrix.md](../../../context/icp/signal-matrix.md). No copy in this file yet.
+Built with `/build-workflow-spec` from signal S03 and tracker row W3 in [signal-matrix.md](../../../context/icp/signal-matrix.md). Copy is under ## Copy.
 
 **INFERRED** = not supported by the research files; a hypothesis to test. Source tags are keyed at the bottom.
 
@@ -127,6 +127,140 @@ Axis 1, workforce type: 2 values (frontline, office). Axis 2, HR team: 2 values 
 3. Approve the first-run enrichment spend (deduplicated pool x $0.026).
 4. After the first run: check how many new leaders per month qualify, and whether Apollo's industry field sorts frontline vs office correctly on 20 known companies.
 5. Kenya and Ghana gate: PaidHR to confirm (a) it can pay staff of a Kenyan or Ghanaian company through local payroll, not only cross-border, (b) which local statutory deductions it computes and remits there, and (c) any Kenyan or Ghanaian customer that can be named. Then: add the facts to facts.md, write KE and GH versions of cells A and B, run a free Apollo pool count per country, and test `apollo.people.enrich` on one record per country (icp.md open question 10).
+
+## Copy
+
+Written with `/campaign-copy`. Campaign: W3 New HR leader, first 100 days. **Copy below is for `country` = NG only**: it names Nigerian deductions and the Nigeria Tax Act; KE and GH versions wait for open item 5. Register: signal play. Channel: email (3 steps) + LinkedIn (empty connection request, 2 DMs). Sender: `{{sender_name}}` (unknown, see facts.md). Every claim traces to [facts.md](../../../context/messaging/facts.md). Social proof names need the facts.md standard check before launch; Sygnite is "confirm first".
+
+### Email 1 (approved 2026-11-12, NG)
+
+**Subject** (static): `{payroll at {{company_name}}|{{company_name}} payroll|your first payroll run}`
+
+`{{first_name}},`
+
+**L1, the situation** (`{{e1l1}}`, exhaustive, no fallback)
+- + A (office, solo): My guess is you're setting up HR at {{company_name}} more or less from scratch since joining in {{start_month}}.
+- + B (office, team): Since you joined {{company_name}} in {{start_month}}, I imagine you've been getting to know how the team runs payroll.
+- + C (frontline, solo): Joining {{company_name}} in {{start_month}} probably made you the person who pays everyone across shifts and sites.
+- + D (frontline, team): Could be off, but since joining {{company_name}} in {{start_month}} you're likely learning how your team pays people across every shift and site.
+
+**L2, what it probably means** (`{{e1l2}}`, exhaustive)
+- + A: If a founder or finance ran payroll before you arrived, it's probably landing on your desk about now.
+- + B: Taking over a process someone else set up usually means checking each run twice until you trust it.
+- + C: That probably means gathering attendance, overtime and new-joiner details from each site before every run.
+- + D: With that many staff, one wrong figure or late payment reaches a lot of people at once.
+
+**Context line** (`{{e1l3}}`, conditional)
+- + tax_window = true: And 2026 is the first year under the Nigeria Tax Act, with annual PAYE returns due by 31 January.
+- + hiring_wave = true AND tax_window = false: And with {{company_name}} hiring for several roles right now, there's probably a round of onboarding coming too.
+- Neither true: no line.
+
+**L3, value** (`{{e1l4}}`, exhaustive)
+- + A: PaidHR runs payroll and remits PAYE, pension, NHF and NSITF every cycle, and staff get their own payslips without coming to HR.
+- + B: PaidHR puts approval levels in front of every payroll run and remits PAYE, pension, NHF and NSITF with a receipt for each payment.
+- + C: In PaidHR, shifts, clock-ins and overtime flow straight into payroll, and new staff onboard themselves.
+- + D: PaidHR flags failed salary payments so you can re-send them, and lets HR pull a payment receipt the moment someone says they weren't paid.
+
+**L4, social proof** (`{{social_proof}}`, exhaustive)
+- + A: Cleva's CEO ran payroll on one big spreadsheet until it stopped scaling, and now tax and pension run automatically.
+- + B: At MyCoverGenius, the Head of People now runs payroll on the day it's due, with no prep in the weeks before.
+- + C: At Sygnite, a solar engineering firm, new staff now fill in their own details instead of HR keying them in.
+- + D: Filmhouse Group's HR team uses the approval steps to catch last-minute details before salaries go out.
+
+**CTA** (static): `{Has payroll landed with you yet|Is payroll already on your plate}?`
+
+**Sign-off** (static): `{Best,|Thanks,}` then `{{sender_name}}`
+
+**Sample, cell A with the tax line** (placeholder prospect "Ada" at "Acme Foods", not a real company):
+
+> Subject: payroll at Acme Foods
+>
+> Ada,
+>
+> My guess is you're setting up HR at Acme Foods more or less from scratch since joining in September.
+>
+> If a founder or finance ran payroll before you arrived, it's probably landing on your desk about now.
+>
+> And 2026 is the first year under the Nigeria Tax Act, with annual PAYE returns due by 31 January.
+>
+> PaidHR runs payroll and remits PAYE, pension, NHF and NSITF every cycle, and staff get their own payslips without coming to HR.
+>
+> Cleva's CEO ran payroll on one big spreadsheet until it stopped scaling, and now tax and pension run automatically.
+>
+> Has payroll landed with you yet?
+>
+> Best,
+> {{sender_name}}
+
+### Email 2 (approved 2026-11-12, NG)
+
+Sent 3 days after Email 1, same thread.
+
+**Subject**: `Re:` + the Email 1 subject
+
+`{{first_name}},`
+
+**L1, new value** (`{{e2l1}}`, exhaustive)
+- + A (office, solo): One thing that helps when you're setting HR up: you can sign up, onboard and run the first payroll in PaidHR on the same day, with no upfront onboarding fee.
+- + B (office, team): On the remittance side, PaidHR remitted ₦934M in PAYE and ₦754M in pension for its customers in 2025, with zero defaults or delays.
+- + C (frontline, solo): Staff on shifts can also pull their own payslips in PaidHR, so those requests stop coming to you.
+- + D (frontline, team): For a workforce that size, the remittance record matters too: ₦934M in PAYE and ₦754M in pension went through PaidHR in 2025, with zero defaults or delays.
+
+**Context line** (`{{e2l2}}`, conditional)
+- + hiring_wave = true AND cell in A, B, D: With several roles open at {{company_name}}, new joiners can fill in their own details instead of HR keying them in.
+- Otherwise: no line (cell C covered self-onboarding in Email 1).
+
+**CTA** (static): `{Worth showing you how that would look for {{company_name}}?|Would a short walkthrough before {{company_name}}'s next payroll run help?}`
+
+**Sign-off**: `{{sender_name}}`
+
+### Email 3 (approved 2026-11-12, NG)
+
+Sent 7 days after Email 2, same thread. Final email.
+
+**Subject**: `Re:` + the Email 1 subject
+
+`{{first_name}},`
+
+**L1, trust** (static): `{Last note from me on this|I'll leave it here after this one}: PaidHR is ISO 27001 certified, holds no customer deposits and works with licensed financial institutions.`
+
+**CTA, referral** (`{{e3l2}}`, by `hr_team_cluster`, exhaustive)
+- + solo (cells A, C): If payroll still sits with finance or a founder at {{company_name}}, who would be best to speak to?
+- + team (cells B, D): Is someone on your team closer to payroll who I should speak to instead?
+
+**Sign-off**: `{{sender_name}}`
+
+### LinkedIn (approved 2026-11-12, NG)
+
+- **Connection request**: day 2 after Email 1, empty (no note).
+- **DM 1**: 1 to 2 days after acceptance. **DM 2**: 3 to 5 days after DM 1. No DM 3. A reply on either channel pauses the other.
+
+**DM 1** (`{{li1}}`, by cell, exhaustive; no greeting, no signature)
+- + A: {{first_name}}, is payroll moving over to HR at {{company_name}} now that you're in, or staying with finance?
+- + B: {{first_name}}, are you keeping {{company_name}}'s current payroll setup, or reviewing it in your first few months?
+- + C: {{first_name}}, do attendance and overtime come to you from each site at {{company_name}}, or is that already automated?
+- + D: {{first_name}}, is a look at how {{company_name}} runs payroll across sites on your list for the coming months?
+
+**DM 2** (static): `Asking because PaidHR {handles|runs} payroll and the PAYE, pension, NHF and NSITF remittances each cycle for 400+ businesses. {Happy to show you how it would look for {{company_name}} if useful.|Glad to walk you through it for {{company_name}} if that helps.}`
+
+### Persona review and human test (2026-11-12)
+
+Read as a new Head of HR at a 50 to 500 person Lagos company, one pass per cell.
+
+- **Would I reply?** Cells A and C: likely, because the opener guesses a real setup moment and the CTA is easy to answer. Cell B: possible; the double-check line is recognisable. Cell D: possible; the failed-payment and receipt line is concrete.
+- **Credibility**: every claim traces to facts.md; proof is matched by cell; no numbers beyond PaidHR's own 2025 remittance figures.
+- **Friction**: E1 asks a yes / no question; E2 offers a walkthrough; E3 asks for a referral. One ask per email.
+- **Reads as AI?** No line uses banned phrasing. Weakest line: E2 cell B opens "On the remittance side, PaidHR remitted", which repeats the word. Kept as approved; candidate for the first copy refresh (e.g. "In 2025, PaidHR remitted...").
+- **Cell D CTA in E1** ("Has payroll landed with you yet?") fits less well when an HR team already runs payroll; the reply still tells us who owns it, so kept. Watch reply quality on cell D.
+
+### Before launch
+
+1. Sender name, title, mailbox and LinkedIn account (`{{sender_name}}`).
+2. Standard check for every named customer (still a customer, consent to written use): Cleva, MyCoverGenius, Filmhouse Group; Sygnite is "confirm first" (2023 video). If Sygnite fails, cell C runs without the social proof line.
+3. Exclusion lists: PaidHR customer domains and CRM open deals.
+4. Approve the first-run enrichment spend (open item 3 above).
+5. Kenya and Ghana: no copy until open item 5 clears.
+6. Test send of each cell to an internal inbox; check `{{start_month}}` and `{{company_name}}` render cleanly.
 
 ## Citation key
 

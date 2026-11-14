@@ -122,7 +122,7 @@ Related: [icp.md](icp.md), [personas.md](personas.md), [messaging.md](../messagi
 |---|---|---|---|---|---|---|---|---|---|
 | W1 | COPY-APPROVED 2026-11-12, B/D gated, consent and sender open (12-month growth trigger, ss:T6; [spec](../../output/campaigns/growing-past-the-spreadsheet/workflow-spec.md)) | Growing past the spreadsheet | Hypergrowth (headcount), S04 | S2, S3 | CEO / founder, HR lead | unknown | | | |
 | W2 | Planned | Hiring HR or payroll | Hiring specific roles, S01 | S2, S1 | HR lead | unknown | | | |
-| W3 | Spec approved 2026-11-12, amended same day: 100 days; NG, plus KE and GH gated ([spec](../../output/campaigns/new-hr-leader-first-100-days/workflow-spec.md)) | New HR leader, first 100 days | New leadership, S03 | S2, S1 | HR lead | unknown | | | |
+| W3 | Copy approved 2026-11-12 (NG only, not launch-ready); spec amended same day: 100 days; KE and GH gated ([spec](../../output/campaigns/new-hr-leader-first-100-days/workflow-spec.md)) | New HR leader, first 100 days | New leadership, S03 | S2, S1 | HR lead | unknown | | | |
 | W4 | Planned | First HR hire | Have / don't have team, S02 | S3 | CEO / founder | unknown | | | |
 | W5 | Planned | New site opened (test) | Niche-specific, S07 | S1 | HR lead, Ops lead | unknown | | | |
 | W6 | Planned | Engaged with PaidHR | LinkedIn engagement / events, S09 | All | All | unknown | | | |
